@@ -1,0 +1,43 @@
+# Generated files to exclude from repo
+.env.template
+.pre-commit-config.yaml
+requirements-security.txt
+GITHUB_ISSUE_BODY.md
+README_SECURITY.md
+SECURITY.md
+SECURITY_ANALYSIS_REPORT.md
+SECURITY_ISSUE.txt
+secret_leak_FIXED.py
+test_failing_calculator.py
+verify_fix.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Logs
+*.log
+logs/
